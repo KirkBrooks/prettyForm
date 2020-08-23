@@ -1,0 +1,28 @@
+﻿{
+	"forms": {
+		"header_SF": {
+			"timeStamp": "2020-08-23T14:33:01.841Z",
+			"destination": "detailScreen"
+		},
+		"Dashboard": {
+			"timeStamp": "2020-08-23T16:02:30.016Z",
+			"destination": "detailScreen"
+		},
+		"footer_SF": {
+			"timeStamp": "2020-08-23T14:33:39.756Z",
+			"destination": "detailScreen"
+		},
+		"webarea_SF": {
+			"timeStamp": "2020-08-23T15:43:36.935Z",
+			"destination": "detailScreen"
+		},
+		"main_form": {
+			"timeStamp": "2020-08-23T15:29:30.207Z",
+			"destination": "detailScreen"
+		},
+		"contact_SF": {
+			"timeStamp": "2020-08-23T15:34:12.620Z",
+			"destination": "detailScreen"
+		}
+	}
+}

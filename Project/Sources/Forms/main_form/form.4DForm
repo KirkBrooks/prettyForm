@@ -1,0 +1,116 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onSelectionChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 82,
+					"left": 0,
+					"width": 253,
+					"height": 367,
+					"stroke": "transparent",
+					"sizingY": "grow"
+				}
+			}
+		},
+		{
+			"objects": {
+				"header_SF": {
+					"type": "subform",
+					"left": 0,
+					"top": 0,
+					"width": 880,
+					"height": 80,
+					"sizingX": "grow",
+					"borderStyle": "none",
+					"dataSource": "Form:C1466.header_SF",
+					"detailForm": "header_SF"
+				},
+				"body_SF_container": {
+					"type": "subform",
+					"left": 260,
+					"top": 81,
+					"width": 620,
+					"height": 368,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"borderStyle": "none",
+					"dataSource": "Form:C1466.body_SF_container"
+				},
+				"Footer_SF": {
+					"type": "subform",
+					"left": 0,
+					"top": 449,
+					"width": 880,
+					"height": 40,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"borderStyle": "none",
+					"detailForm": "footer_SF"
+				},
+				"sidebar_LB": {
+					"type": "listbox",
+					"left": 10,
+					"top": 89,
+					"width": 235,
+					"height": 350,
+					"events": [],
+					"listboxType": "collection",
+					"resizingMode": "legacy",
+					"hideFocusRing": true,
+					"scrollbarHorizontal": "hidden",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"hideExtraBlankRows": true,
+					"sizingY": "grow",
+					"headerHeight": "24px",
+					"showHeaders": false,
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"dataSource": "Form:C1466.sidebar_LB.data",
+					"currentItemSource": "Form:C1466.sidebar_LB.curItem",
+					"currentItemPositionSource": "Form:C1466.sidebar_LB.pos",
+					"selectedItemsSource": "Form:C1466.sidebar_LB.selected",
+					"scrollbarVertical": "automatic",
+					"rowFillSource": "",
+					"rowHeight": "30px",
+					"fontSize": 20,
+					"stroke": "#b1c4dd",
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.label"
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 172,
+	"method": "method.4dm"
+}
